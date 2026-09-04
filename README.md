@@ -180,7 +180,42 @@ The final personalized personality profile generated from the bag contents.
 https://drive.google.com/file/d/1lJWSkPOhtirzRwZE8wmIKl8DgY5geGY-/view?usp=drivesdk
 
 
+1. Step 1: Suspect Identification & Mugshot Intake
+User Details: The user inputs their identifier:
+Participant / Suspect Name: GK
+Class / Grade / Department: ME1
+Live Webcam Capture: The app requests camera access, displaying a live feed in the "Mugshot Camera Intake" frame.
+Mugshot Snapping: The user takes a live photo, which is stamped with a yellow SUSPECT: GK | CLASS: ME1 badge and labeled "MUGSHOT CAPTURED".
+2. Step 2: Archetype / Persona Selection
+The app presents a grid of humorous character archetypes (e.g., Corporate Drone, College Goblin, Chaos Gremlin, Delulu Influencer, Ex-Gifted Burnout, Gym Bro, They / Them), each with funny confession quotes.
+The user selects a persona and proceeds to bag selection.
+3. Step 3: Bag Type Selection
+A catalog of bags with satirical descriptions is shown: Backpack (Mobile Vault), Handbag (Quantum Physics Defier), Chaakku / ചാക്ക് (Kerala Burlap Vintage), Work bag, Huge bag, and Plastic bag (Rock Bottom).
+Live hover previews display punchy roasts for each bag type.
+The user selects Plastic bag ("Crinkles loudly with every step, broadcasting your despair to all").
+4. Step 4: "Pack Your Bag" (Evidence Selection)
+Users select items from a quirky checklist representing bag clutter (e.g., Phone, Power bank, Snacks, 69 receipts, Random cable, Leaking hand sanitizer, Random object you refuse to explain, 9 pens, etc.).
+The user packs 4 items: Phone, Power bank, Random object you refuse to explain, and 9 pens.
+5. Interrogation & Analysis Screen
+A retro loading/scanning animation labeled "INTERROGATING YOUR BAG..." runs dynamic diagnostic terminal logs (e.g., "> Running forensic analysis on mysterious cable...").
+6. Step 5: Official Police Roast Dossier Report
+The application generates a themed report card:
 
+Case File & Verdict: CASE FILE #5376 — Guilty of Being CID Ramdas & Vijayan (സി.ഐ.ഡി ദാസൻ & വിജയൻ).
+Pop Culture Tie-in: Convicts the user as the iconic detective duo from the classic Malayalam comedy film Nadodikkattu (starring Mohanlal and Sreenivasan) with the #NADODIKATTU badge.
+Audio Playback: Integrates an in-browser audio player with the movie dialogue:
+"എല്ലാത്തിനും അതിന്റേതായ സമയമുണ്ട് ദാസാ..." ("Ellathinum athintethaya samayamundu Dasa...") The video shows the audio playing directly from the page.
+
+The Brutal Truth (Roast Narrative): Generates custom roast commentary addressing GK of ME1 carrying a plastic bag.
+Satirical Metrics & Vitals:
+Blood Pressure: 150/112 mmHg (Spiking on Sight)
+Stress Level: 72% (One Inconvenience Away From Tears)
+Stupidity Index: 80.4% (Zero Survival Instinct)
+Chaos Level: 54% | Survival Odds: 51%
+Evidence Logged: Summarizes the 4 confiscated items.
+7. Export & Reset
+PNG Export: The user clicks "Save Dossier Card (PNG)", which downloads a shareable report card image (whats-in-my-bag-dossier-....png) directly to the browser.
+Restart: The user clicks "Indict Someone Else (Try Again)", resetting the test back to the intake page.
 
 Made with ❤️ at TinkerHub Useless Projects 
 
