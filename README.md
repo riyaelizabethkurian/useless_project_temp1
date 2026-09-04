@@ -2,7 +2,7 @@
 
 
 
-# [Project Name] 🎯
+# Personality in my bag
 
 
 ## Basic Details
@@ -15,47 +15,58 @@
 
 
 ### Project Description
-[2-3 lines about what your project does]
+An AI-based system that analyzes the items in a person’s bag to identify their interests, habits, and lifestyle. It then uses these patterns to generate a fun, personalized personality profile.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+I’m solving the ridiculous problem of not knowing what your bag says about your personality.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
+ My website lets users enter the contents of their bag and generates a funny, personalized roast based on their items. Because apparently, your emergency snacks, tangled earphones, and random receipts are enough to expose your entire personality.
+ 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- Javascript,CSS,HTML
+- React 
+- react, react-dom, lucide-react, html-to-image, canvas-confetti, tailwindcss, autoprefixer, autoprefixer, postcss, vite, @vitejs/plugin-react, express, @google/generative-ai, cors , dotenv
 - [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+npm install
 
 # Run
-[commands]
+npm run dev
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+### Screenshot 1 — Home Page
+![Home Page](images/img1.png.png)
+The landing page of BagPersona where users can start the analysis.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+### Screenshot 2 — Bag Upload
+![Bag Upload](images/img2.png.png)
+Users upload an image of their bag for personality analysis.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+### Screenshot 3 — Image Analysis
+![Image Analysis](images/img3.png.png)
+The uploaded bag image is processed by the system.
+
+### Screenshot 4 — Detected Items
+![Detected Items](images/img4.png.png)
+The system identifies the objects present in the bag.
+
+### Screenshot 5 — Personality Analysis
+![Personality Analysis](images/img5.png.png)
+The detected items are analyzed to infer personality traits.
+
+### Screenshot 6 — Final Result
+![Final Result](images/img6.png.png)
+The final personalized personality profile generated from the bag contents.
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -63,22 +74,7 @@ For Software:
 
 For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
@@ -88,12 +84,8 @@ For Hardware:
 # Additional Demos
 [Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
----
+
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
