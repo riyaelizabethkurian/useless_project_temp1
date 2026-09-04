@@ -1,0 +1,12 @@
+{
+  "name": "whats-in-my-bag-app",
+  "version": "1.0.0",
+  "description": "WHAT'S IN MY BAG? - A funny personality-roasting quiz web application",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": ["react", "express", "quiz", "roast", "comedy", "gemini-ai"]
+}

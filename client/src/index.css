@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-display {
+    font-family: 'Rubik', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Neo-brutalist buttons & utility classes */
+.btn-brutal {
+  @apply font-black px-6 py-3 rounded-2xl border-3 border-black transition-all duration-150 active:translate-x-1 active:translate-y-1 select-none flex items-center justify-center gap-2;
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.btn-brutal:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.btn-brutal:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.card-brutal {
+  @apply bg-white rounded-3xl border-3 border-black p-6 transition-all;
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.card-brutal-interactive {
+  @apply bg-white rounded-2xl border-3 border-black p-5 cursor-pointer transition-all duration-200 select-none;
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.card-brutal-interactive:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0px 0px #000000;
+}
+
+.badge-brutal {
+  @apply font-bold text-xs uppercase px-3 py-1 rounded-full border-2 border-black inline-flex items-center gap-1.5 shadow-[2px_2px_0px_0px_#000];
+}
+
+/* Option Card: Side lines are invisible by default, and become visible only when the cursor moves towards the option */
+.option-card-sidelines {
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-top-color: #000000;
+  border-bottom-color: #000000;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: relative;
+  transition: border-color 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.option-card-sidelines:hover,
+.option-card-sidelines.is-selected {
+  border-left-color: #000000 !important;
+  border-right-color: #000000 !important;
+}
+
+/* Quote Hover Interactive Effect: Hovers playfully when cursor is on top */
+.quote-hover {
+  @apply transition-all duration-200 cursor-pointer;
+}
+
+.quote-hover:hover {
+  transform: translateY(-4px) scale(1.03) rotate(-1deg);
+  box-shadow: 5px 5px 0px 0px #000000;
+  filter: brightness(1.05);
+}
+
+/* Custom background pattern */
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+}
+
+/* Scanline animation for the bag X-ray screen */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(1000%); }
+}
+
+.animate-scanline {
+  animation: scanline 2.5s linear infinite;
+}
+
+/* Dancing Detective Keyframe Animations */
+@keyframes detectiveGroove {
+  0% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-8px) rotate(-4deg) scale(1.02); }
+  50% { transform: translateY(0px) rotate(0deg); }
+  75% { transform: translateY(-8px) rotate(4deg) scale(1.02); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+@keyframes magnifyingSwing {
+  0% { transform: rotate(0deg); }
+  33% { transform: rotate(-25deg) scale(1.1); }
+  66% { transform: rotate(20deg) scale(1.1); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes detectiveLegs {
+  0%, 100% { transform: skewX(0deg); }
+  25% { transform: skewX(-8deg); }
+  75% { transform: skewX(8deg); }
+}
+
+@keyframes cameraFlash {
+  0% { opacity: 0; }
+  50% { opacity: 0.95; }
+  100% { opacity: 0; }
+}
+
+.animate-detective-groove {
+  animation: detectiveGroove 1.2s ease-in-out infinite;
+}
+
+.animate-magnifying-swing {
+  transform-origin: bottom left;
+  animation: magnifyingSwing 1.6s ease-in-out infinite;
+}
+
+.animate-detective-legs {
+  animation: detectiveLegs 0.6s ease-in-out infinite;
+}
+
+.animate-camera-flash {
+  animation: cameraFlash 0.4s ease-out forwards;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFE600;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 4px;
+}

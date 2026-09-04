@@ -1,0 +1,67 @@
+{
+  "clips": [
+    {
+      "id": "relocating",
+      "category": "relocating",
+      "title": "Are You Relocating?",
+      "movie": "Planes, Trains and Automobiles / Cast Away",
+      "quote": "Bro are you going somewhere or relocating?",
+      "filename": "relocating.mp4",
+      "description": "For people carrying huge bags containing half their apartment, emotional baggage, and emergency supplies for the apocalypse."
+    },
+    {
+      "id": "corporate",
+      "category": "corporate",
+      "title": "Corporate Slave Detected",
+      "movie": "Office Space",
+      "quote": "Did you get the memo about the TPS reports?",
+      "filename": "corporate.mp4",
+      "description": "For work bags stuffed with laptops, random cables for nonexistent devices, anxiety, and unread Slack notifications."
+    },
+    {
+      "id": "chaos",
+      "category": "chaos",
+      "title": "Respectfully... What Happened?",
+      "movie": "The Hangover",
+      "quote": "What happened to us last night?",
+      "filename": "chaos.mp4",
+      "description": "For plastic bags holding 47 crinkled receipts, loose pennies, mystery medicine, and untamed chaotic life choices."
+    },
+    {
+      "id": "economy",
+      "category": "economy",
+      "title": "Entire Economy Inside",
+      "movie": "Devil Wears Prada",
+      "quote": "That's all.",
+      "filename": "economy.mp4",
+      "description": "For miniature handbags defying the laws of quantum physics with 14 products packed into 2 square inches."
+    },
+    {
+      "id": "tote_personality",
+      "category": "tote_personality",
+      "title": "₹300 Personality Trait",
+      "movie": "Lady Bird / 500 Days of Summer",
+      "quote": "I'm not like other people, I carry books and matcha in cotton.",
+      "filename": "tote_personality.mp4",
+      "description": "For cloth tote bags carrying aesthetic sadness, 9 broken pens, organic snacks, and an unread novel."
+    },
+    {
+      "id": "minimalist_fear",
+      "category": "minimalist_fear",
+      "title": "Fear of Responsibility",
+      "movie": "Superbad",
+      "quote": "I am McLovin. I only carry what I can run away with.",
+      "filename": "minimalist_fear.mp4",
+      "description": "For crossbodies carrying exactly a phone, lip balm, and an acute phobia of commitments."
+    },
+    {
+      "id": "storage_unit",
+      "category": "storage_unit",
+      "title": "The Portable Storage Unit",
+      "movie": "Dora The Explorer / Mission Impossible",
+      "quote": "I have everything in here. Even things that haven't been invented yet.",
+      "filename": "storage_unit.mp4",
+      "description": "For backpacks equipped for a 3-week expedition to the Himalayas while just going to the local library."
+    }
+  ]
+}
